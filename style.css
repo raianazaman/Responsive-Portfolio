@@ -242,7 +242,7 @@ p1{
     margin-right: 100px;
   }
 
-  #main-bio {
+  .main{
     width: 390px;
     margin-left: 130px;
   }
@@ -274,12 +274,14 @@ p1{
   }
   .menu {    width: 420px;
   }
-  .main-bio {
+  .main {
     position: static;
     width: 685px;
     margin-right: 35px;
     margin-left: 35px;
   }
+
+
   .bio-image {
     position: static;
     width: 50%;
@@ -324,12 +326,13 @@ p1{
     padding: 0px 40px;
   }
 
-  #main-bio{
+ .main{
     position: static;
     width: 550px;
     margin: 35px;
     margin-bottom: 0px;
   }
+
 
   #bio-image  {
     position: static;
