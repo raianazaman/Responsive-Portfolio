@@ -1,0 +1,349 @@
+
+*
+{
+    box-sizing: border-box; 
+}
+
+.container {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+#nav-bar
+{
+  position: fixed;
+  z-index: 99;
+  margin: 0 0 30px;
+  overflow: auto;
+  width: 100%;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+
+#name { 
+
+    width: 250px;
+    height: 90px;
+    float: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    background: #4aaaa5;
+   
+  }
+  
+.menu{
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+  font-size: 18px;
+  
+}
+
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  overflow: hidden;
+  margin-right: 15px;
+  padding-right: 15px;
+  color: #999;
+  text-decoration: none;
+  line-height: 18px;
+  border-right: 1px solid gray;
+}
+
+
+.container h2 {
+  font-size: 24px;
+  margin: 0px;
+  color: #4aaaa5;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+#main{
+  padding-top: 130px;
+}
+
+#main-bio {
+  
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+ }
+ 
+ p{
+   display: block;
+   color: #777777;
+   text-align: left;
+   padding: 24px 26px;
+   text-decoration: none;
+   margin-bottom: 20px;
+ }
+ 
+
+body {
+  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #777;
+  line-height: 34px;
+  background-color: rgb(212, 205, 205);
+
+}
+
+
+#bio-image {
+  float: left;
+  width: 10em;
+  height: 10em;
+  margin-right: 20px;
+  margin-top: 20px;
+  
+}
+footer {
+  height:60px;
+  width: 100%;
+  padding: 20px 0;
+  clear: both;
+  color: #fff;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  position:fixed;
+  bottom: 0px;
+}
+
+#Contact{
+  width: 960px;
+  height: 500px;
+  background-color: white;
+  padding: 30px;
+  position: fixed;
+  top:120px;
+ border: .5px solid gray;
+ margin: auto;
+}
+#Contact input{
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  border: .5px solid gray;
+  padding: 15px;
+
+}
+#Contact input[type="msg"]{
+  width: 100%;
+  height:120px;
+  font-size: 12px;
+  border: .5px solid gray;
+
+}
+#Contact input[type="submit"]{
+  width: 10%;
+  height:40px;
+  font-size: 12px;
+  border: .5px solid gray;
+  background-color: #4aaaa5;
+  color: white;
+  font-weight: bold;
+  
+
+}
+p1{
+  font-size: 14px; 
+  
+}
+.pic {
+
+  position: relative;
+  overflow: auto;
+  float: left;
+  align-self: center;
+  margin: 5px;
+ 
+}
+.pic h3 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  margin-left: 5px;
+  padding: 10px;
+  width: 182px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 300;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+.pic img {
+ 
+  border: 0 none;
+  height: 140px;
+  width: 182px;
+}
+
+  #gallary {
+    
+     width: 450px;
+     height: 600px;
+     background-color: white;
+     padding: 20px 20px;
+     margin-top: 10px;
+     position: fixed;
+     right: 500px;
+     top:120px;
+    border: .5px solid gray;
+   }
+   .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/*Media Queries */
+@media screen and (max-width: 980px) {
+  body {
+    position: static;
+  }
+
+  #nav-bar{
+    width: 980px;
+  }
+
+  #name {
+    width: 250px;
+    margin-left: 50px;
+  }
+
+  .menu {
+    margin-right: 100px;
+  }
+
+  #main-bio {
+    width: 390px;
+    margin-left: 130px;
+  }
+
+  #bio-image {
+    width: 100%;
+  }
+
+  .pic {
+    width: 100%;
+  }
+
+  .pic:nth-child(even) {
+    float: left;
+  }
+
+  footer {
+    width: 980px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  
+  #name {
+    position: static;
+    width: 256px;
+  }
+  .menu {    width: 420px;
+  }
+  .main-bio {
+    position: static;
+    width: 685px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+  .bio-image {
+    position: static;
+    width: 50%;
+  }
+
+  .pic {
+    width: 290px;
+  }
+
+  footer {
+    width: 768px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  body { 
+    position: static;
+   }
+
+   .container {
+    position: static;
+    width: 640px;
+    margin: 0;
+   }
+
+   #name {
+    position: static;
+    width: 640px;
+    margin: 0;
+  }
+  .menu  {
+    position: static;
+    width: 640px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    padding-left: 155px;
+    text-align: center;
+  }
+
+  .menu li {
+    padding: 0px 40px;
+  }
+
+  #main-bio{
+    position: static;
+    width: 550px;
+    margin: 35px;
+    margin-bottom: 0px;
+  }
+
+  #bio-image  {
+    position: static;
+    width: 100%;
+  }
+
+
+  .pic {
+    width: 100%;
+  }
+
+  footer {
+    width: 640px;
+  }
+  
+}
+
