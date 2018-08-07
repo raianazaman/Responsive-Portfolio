@@ -253,6 +253,7 @@ p1{
 
   .pic {
     width: 100%;
+    width: 50%;
   }
 
   .pic:nth-child(even) {
@@ -288,7 +289,7 @@ p1{
   }
 
   .pic {
-    width: 290px;
+    width: 250px;
   }
 
   footer {
